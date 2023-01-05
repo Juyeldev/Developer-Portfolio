@@ -10,12 +10,13 @@
     background-position: bottom right;
    
 }
+.header
 /* header and nav style */
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 nav h2{
     margin-top: 45px;
@@ -27,6 +28,8 @@ nav li {
 nav ul {
   display: flex;
   align-items: center;
+}
+
 }
 /* Hire Button style */
 
