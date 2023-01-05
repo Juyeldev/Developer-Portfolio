@@ -88,11 +88,14 @@ main{
     background: #FFF8F3;
     border-radius: 10px;
     padding-left: 131px 156px;
+    Height:550px
+
  }
  .section-tittle{
     text-align: center;
     font-size: 35px;
     margin-bottom: 30px;
+   
 
  }
  .section-des{
@@ -114,6 +117,12 @@ main{
     color: #757575;
     font-weight: 700px;
  }
+ .about-info{
+  margin-top: 100px;;
+   
+
+ }
+
  
  /* What I Do style */
  
@@ -144,4 +153,60 @@ main{
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+ }
+/* Resume style */
+
+
+ .resume-content{
+    display: flex; 
+    gap: 24px;
+    
+ }
+ .resume.tittle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+ }
+ .resume.sub-tittle{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ .resume.des{
+    color: #757575;
+ }
+ .resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ /* Resume btn */
+
+ .resume-btn{
+    margin-top: 50px;
+    text-align: center;
+ }
+
+ /* contact style */
+
+ .contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+ }
+
+ .contact .section-title{
+  text-align: left;
+ }
+ .contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+ }
+ .contact a{
+    text-decoration: none;
  }
